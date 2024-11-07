@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.still{
+  
+    background-color: #3A5F56;
+    color: blanchedalmond;
+    text-shadow: white 1px 0 10px;
+    color: #161A42;
+    text-align: center;
+    
+    
+}
+.taym {
+     position: fixed;
+     left: 40%;
+     top: 40%;
+     font-size: 50px;
+     font-family: sans-serif;
+     animation: kattalashtirish 2s ease-in-out infinite;
+
+}
+@keyframes kattalashtirish {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
